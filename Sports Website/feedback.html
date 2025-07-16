@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback – ProGear</title>
+  <link rel="stylesheet" href="feedback.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>📝 We Value Your Feedback</h1>
+    <p class="subtitle">Help us improve your experience at ProGear Sports Store</p>
+
+    <form class="feedback-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+      <label for="rating">Rate Us</label>
+      <div class="rating">
+        <input type="radio" id="star5" name="rating" value="5" /><label for="star5">⭐</label>
+        <input type="radio" id="star4" name="rating" value="4" /><label for="star4">⭐</label>
+        <input type="radio" id="star3" name="rating" value="3" /><label for="star3">⭐</label>
+        <input type="radio" id="star2" name="rating" value="2" /><label for="star2">⭐</label>
+        <input type="radio" id="star1" name="rating" value="1" /><label for="star1">⭐</label>
+      </div>
+
+      <label for="message">Feedback</label>
+      <textarea id="message" name="message" placeholder="Share your thoughts..." rows="5" required></textarea>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </div>
+
+</body>
+</html>
